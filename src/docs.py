@@ -1,2 +1,2 @@
-needed_files = set(["h20.json", "h20.lock"])
+needed_files = set(["h2o.json", "h2o.lock"])
 needed_folders = set(["modules", "src"])

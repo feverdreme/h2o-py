@@ -12,7 +12,7 @@ uninstall_parser = argparse.ArgumentParser("uninstall")
 
 init_parser.add_argument("directory", nargs="?", type=str, default=".")
 
-install_parser.add_argument("package", nargs=1, type=str)
+install_parser.add_argument("package", nargs="?", type=str, default="*")
 
 if command_choice == "init":
     args = init_parser.parse_args(sys.argv[2:])
